@@ -450,7 +450,7 @@ export default function Terminal() {
         background: "#000000",
         color: "#f5f5f5",
         fontFamily: 'Meslo NF',
-        padding: "20px",
+        //padding: "20px",
         minHeight: "90vh",
         lineHeight: "1.6",
         overflowY: "auto"
