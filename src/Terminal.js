@@ -100,23 +100,23 @@ export default function Terminal() {
       items: [
         { name: "Python", level: "90%", color: "#3776AB" },
         { name: "SQL", level: "85%", color: "#E34C26" },
-        { name: "VBA", level: "80%", color: "#217346" }
+        { name: "Java", level: "80%", color: "#217346" }
       ]
     },
     {
-      category: "Finance",
+      category: "web Technology",
       items: [
-        { name: "Risk Management", level: "85%", color: "#FF6B6B" },
-        { name: "Financial Analysis", level: "90%", color: "#4ECDC4" },
-        { name: "Portfolio Management", level: "75%", color: "#FFE66D" }
+        { name: "HTML and CSS", level: "85%", color: "#FF6B6B" },
+        { name: "JavaScript", level: "90%", color: "#4ECDC4" },
+        { name: "React", level: "75%", color: "#FFE66D" }
       ]
     },
     {
       category: "Tools",
       items: [
-        { name: "Excel", level: "95%", color: "#217346" },
-        { name: "Git", level: "80%", color: "#F05032" },
-        { name: "Power BI", level: "70%", color: "#F2C811" }
+        { name: "Control M", level: "95%", color: "#217346" },
+        { name: "Jira", level: "80%", color: "#F05032" },
+        { name: "ServiceNow", level: "70%", color: "#F2C811" }
       ]
     }
   ];
@@ -450,7 +450,7 @@ export default function Terminal() {
         background: "#000000",
         color: "#f5f5f5",
         fontFamily: 'Meslo NF',
-        //padding: "20px",
+        padding: "20px",
         minHeight: "90vh",
         lineHeight: "1.6",
         overflowY: "auto"
