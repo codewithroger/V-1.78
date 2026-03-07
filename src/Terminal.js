@@ -292,7 +292,7 @@ export default function Terminal() {
             ...skills[0].items.map(s => `${s.name.padEnd(15)} [${s.level.padEnd(6)}] ${"█".repeat(Math.floor(parseInt(s.level)/10))}`),
             "",
  "",
-            "🔹 FINANCE",
+            "🔹 WEB TECHNOLOGY",
             "========================",
             ...skills[1].items.map(s => `${s.name.padEnd(15)} [${s.level.padEnd(6)}] ${"█".repeat(Math.floor(parseInt(s.level)/10))}`),
             "",
