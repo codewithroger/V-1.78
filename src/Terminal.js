@@ -206,11 +206,11 @@ export default function Terminal() {
         "",
         "MAIN EXECUTION MENU",
         "-------------------------",
-        "1 . HERO",
-        "2 . ABOUT",
-        "3 . PROJECTS",
-        "4 . SKILLS",
-        "5 . EXPERIENCE",
+        "[1] . HERO",
+        "[2] . ABOUT",
+        "[3] . PROJECTS",
+        "[4] . SKILLS",
+        "[5] . EXPERIENCE",
         "",
         "Select option:",
         "",
@@ -263,14 +263,14 @@ export default function Terminal() {
       switch (cmd) {
         case "1":
   openScreen("HERO", [
-    "👋 Hi, I'm Yogesh — Associate Software Engineer at Hexaware Technologies",
+    "Hi, I'm Yogesh — Associate Software Engineer at Hexaware Technologies",
     "",
-    "🎓 B.Tech in Computer Engineering from D.Y. Patil College of Engineering",
-    "💻 Skilled in SQL, UNIX/Linux, Windows Server, Control-M, ServiceNow & Jira",
-    "🎯 Mission: Deliver stability and innovation in banking & capital markets",
-    "💡 Philosophy: Automation and efficiency drive continuous improvement",
-    "🚀 Goal: Build scalable, audit-compliant systems that solve real-world problems",
-    "🌟 Strength: Collaborating with stakeholders to ensure high availability and operational excellence"
+    "-> B.Tech in Computer Engineering from D.Y. Patil College of Engineering",
+    "-> Skilled in SQL, UNIX/Linux, Windows Server, Control-M, ServiceNow & Jira",
+    "-> Mission: Deliver stability and innovation in banking & capital markets",
+    "-> Philosophy: Automation and efficiency drive continuous improvement",
+    "-> Goal: Build scalable, audit-compliant systems that solve real-world problems",
+    "->Strength: Collaborating with stakeholders to ensure high availability and operational excellence"
   ]);
 
           break;
@@ -284,7 +284,7 @@ export default function Terminal() {
           break;
         case "4":
           openScreen("SKILLS", [
-            "📊 SKILLS OVERVIEW",
+            " SKILLS OVERVIEW",
             "========================",
             "",
             "🔹 PROGRAMMING",
@@ -413,7 +413,7 @@ export default function Terminal() {
         setLines(prev => [...prev, "  WHOAMI - Show your username"]);
         setLines(prev => [...prev, "  EXIT   - End session"]);
         setLines(prev => [...prev, ""]);
-        setLines(prev => [...prev, "💡 TIP: Use Arrow Up/Down for command history"]);
+       // setLines(prev => [...prev, "💡 TIP: Use Arrow Up/Down for command history"]);
         return;
       }
     }
