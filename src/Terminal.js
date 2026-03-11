@@ -17,8 +17,8 @@ export default function Terminal() {
 
   // ------------------ BOOT LINES ------------------
   const bootLines = [
-    "HP FINANCIAL SYSTEMS TERMINAL v1.0",
-    "Initializing Automation & Support Modules...",
+    "SYSTEMS TERMINAL v1.78",
+    "Initializing Modules...",
     "Loading System Utilities...",
     "System Ready.",
     "",
@@ -39,7 +39,7 @@ export default function Terminal() {
         "- Developed known voice recognition for personalized interaction.",
         "-  Technology Used: Machine Learning, Flutter, REST API.",
       ],
-      github: "https://github.com/harrypaul/ai-finance"
+     // github: "https://github.com/harrypaul/ai-finance"
     },
     {
       name: "Blockchain-Based Voting System",
@@ -49,7 +49,7 @@ export default function Terminal() {
         "– Addressed both technical implementation and regulatory compliance challenges.",
         "– Technology Used: React.js, Solidity, Hardhat."
       ],
-      github: "https://github.com/harrypaul/cashflow"
+     // github: "https://github.com/harrypaul/cashflow"
     },
   ];
 
@@ -181,7 +181,7 @@ export default function Terminal() {
   const showLogin = () => {
     setLines([
       "",
-      "HP FINANCIAL SYSTEMS TERMINAL v1.0",
+      "SYSTEMS TERMINAL v1.78.0",
       "---------------------------------------",
       "",
       "Enter your name to continue:",
@@ -265,11 +265,11 @@ export default function Terminal() {
   openScreen("HERO", [
     "Hi, I'm Yogesh — Associate Software Engineer at Hexaware Technologies",
     "",
-    "-> B.Tech in Computer Engineering from D.Y. Patil College of Engineering",
-    "-> Skilled in SQL, UNIX/Linux, Windows Server, Control-M, ServiceNow & Jira",
-    "-> Mission: Deliver stability and innovation in banking & capital markets",
-    "-> Philosophy: Automation and efficiency drive continuous improvement",
-    "-> Goal: Build scalable, audit-compliant systems that solve real-world problems",
+    "- B.Tech in Computer Engineering from D.Y. Patil College of Engineering",
+    "- Skilled in SQL, UNIX/Linux, Windows Server, Control-M, ServiceNow & Jira",
+    "- Mission: Deliver stability and innovation in banking & capital markets",
+    "- Philosophy: Automation and efficiency drive continuous improvement",
+    "- Goal: Build scalable, audit-compliant systems that solve real-world problems",
     "->Strength: Collaborating with stakeholders to ensure high availability and operational excellence"
   ]);
 
