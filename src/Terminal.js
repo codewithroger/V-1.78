@@ -17,7 +17,7 @@ export default function Terminal() {
 
   // ------------------ BOOT LINES ------------------
   const bootLines = [
-    "SYSTEMS TERMINAL v1.78",
+    "***SYSTEMS TERMINAL V-1.78***",
     "Initializing Modules...",
     "Loading System Utilities...",
     "System Ready.",
@@ -337,7 +337,7 @@ export default function Terminal() {
           setState("BOOT");
           break;
         case "VER":
-          setLines(prev => [...prev, " Terminal v1.79"]);
+          setLines(prev => [...prev, " Terminal V-1.78"]);
           break;
         case "THANKS":
           setLines(prev => [...prev, "Thanks for using HP Terminal! "]);
@@ -452,7 +452,7 @@ export default function Terminal() {
         fontFamily: 'Meslo NF',
         padding: "20px",
         minHeight: "90vh",
-        lineHeight: "1.6",
+        lineHeight: "1.4",
         overflowY: "auto"
       }}
     >
